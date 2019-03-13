@@ -1,6 +1,6 @@
 //Install Service Worker
 const url = window.location.href;
-let swLocation = '/pwa/sw.js';
+let swLocation = '/sw.js';
 
 if (navigator.serviceWorker) {
     if (url.includes('localhost')) {
